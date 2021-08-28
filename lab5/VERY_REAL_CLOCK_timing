@@ -1,0 +1,188 @@
+//  Precision RTL Synthesis 64-bit 2018.1.0.19 (Production Release) Fri Aug 10 05:55:53 PDT 2018
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2018, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Windows Server 2016 mkemelma@MSTS-ELEC  10.0.17763 x64
+//  
+//  Start time Thu Jun 03 12:17:42 2021
+
+-- Device: Xilinx - ARTIX-7 : 7A35TCPG236 : 3
+-- CTE report summary..
+-- POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+
+================================================================================================
+                   Clock Frequency Report
+
+	Domain                  Clock Name                            Min Period (Freq)             Required Period (Freq)
+	------                  ----------                            -----------------             ----------------------
+	CLK_PS                  CLK                                   6.577 (152.045 MHz)           10.000 (100.000 MHz)
+	CLK_PS                  VirtualClock                          6.577 (152.045 MHz)           10.000 (100.000 MHz)
+
+
+================================================================================================
+Setup Timing Analysis of VirtualClock
+
+Setup Slack Path Summary
+
+              Data                                                                    Data
+       Setup  Path   Source                                                           End 
+Index  Slack  Delay  Clock   Dest. Clock         Data Start Pin         Data End Pin  Edge
+-----  -----  -----  ------  ------------  ---------------------------  ------------  ----
+  1    3.423  4.728  CLK     VirtualClock  IN_CNTR_mac2_0_reg_out(0)/C  B_SEG_OUT(3)  Rise
+  2    3.482  4.669  CLK     VirtualClock  reg_q(2)_1_10/C              B_SEG_OUT(3)  Rise
+  3    3.482  4.669  CLK     VirtualClock  reg_q(1)_1_11/C              B_SEG_OUT(3)  Rise
+  4    3.519  4.632  CLK     VirtualClock  reg_q(1)/C                   B_SEG_OUT(3)  Fall
+  5    3.535  4.616  CLK     VirtualClock  reg_q(3)_1_9/C               B_SEG_OUT(3)  Rise
+  6    3.537  4.614  CLK     VirtualClock  reg_q(2)/C                   B_SEG_OUT(3)  Fall
+  7    3.552  4.599  CLK     VirtualClock  reg_q(4)_1_8/C               B_SEG_OUT(3)  Rise
+  8    3.552  4.599  CLK     VirtualClock  reg_q(5)_1_7/C               B_SEG_OUT(3)  Rise
+  9    3.554  4.597  CLK     VirtualClock  reg_q(4)/C                   B_SEG_OUT(3)  Fall
+ 10    3.554  4.597  CLK     VirtualClock  reg_q(5)/C                   B_SEG_OUT(3)  Fall
+
+                  CTE Path Report
+
+
+Critical path #1, (path slack = 3.423):
+
+SOURCE CLOCK: name: CLK period: 10.000000
+     Times are relative to the 1st rising edge
+  DEST CLOCK: name: VirtualClock period: 10.000000
+     Times are relative to the 2nd rising edge
+
+NAME                           GATE       DELAY    ARRIVAL DIR  FANOUT
+IN_CNTR_mac2_0_reg_out(0)/C FDRE                   0.000   up
+IN_CNTR_mac2_0_reg_out(0)/Q FDRE         0.377     0.377   up
+CATHODE_OUT_1_0             (net)        0.654                  24
+ix46562z1318/I0             LUT2                   1.031   up
+ix46562z1318/O              LUT2         0.097     1.128   up
+nx46562z3                   (net)        0.295                   1
+ix46562z1315/I5             LUT6                   1.423   up
+ix46562z1315/O              LUT6         0.097     1.520   up
+nx46562z2                   (net)        0.302                   3
+ix46562z1361/I0             LUT3                   1.822   up
+ix46562z1361/O              LUT3         0.097     1.919   up
+nx46562z1                   (net)        0.295                   1
+B_SEG_OUT_obuf(3)/I         OBUF                   2.214   up
+B_SEG_OUT_obuf(3)/O         OBUF         2.514     4.728   up
+B_SEG_OUT(3)                (net)        0.000                   0
+B_SEG_OUT(3)                (port)                 4.728   up
+
+		Initial edge separation:     10.000
+		Source clock delay:      -    1.849
+		Dest clock delay:        +    0.000
+		                        -----------
+		Edge separation:              8.151
+		Setup constraint:        -    0.000
+		                        -----------
+		Data required time:           8.151
+		Data arrival time:       -    4.728   ( 67.30% cell delay, 32.70% net delay )
+		                        -----------
+		Slack:                        3.423
+
+
+
+================================================================================================
+Setup Timing Analysis of CLK
+
+Setup Slack Path Summary
+
+              Data                                                       Data
+       Setup  Path   Source  Dest.                                       End 
+Index  Slack  Delay  Clock   Clock    Data Start Pin     Data End Pin    Edge
+-----  -----  -----  ------  -----  ------------------  ---------------  ----
+  1    7.406  2.305  CLK     CLK    PM0/reg_q(18)/C     PM0/reg_q(26)/R  Rise
+  2    7.425  2.286  CLK     CLK    PM0/reg_q(22)/C     PM0/reg_q(26)/R  Rise
+  3    7.425  2.286  CLK     CLK    PM0/reg_q(21)/C     PM0/reg_q(26)/R  Rise
+  4    7.425  2.286  CLK     CLK    PM0/reg_q(24)/C     PM0/reg_q(26)/R  Rise
+  5    7.425  2.286  CLK     CLK    PM0/reg_q(23)/C     PM0/reg_q(26)/R  Rise
+  6    7.425  2.286  CLK     CLK    PM0/reg_q(20)/C     PM0/reg_q(26)/R  Rise
+  7    7.427  2.284  CLK     CLK    PM0/reg_q(2)_1_2/C  PM0/reg_q(26)/R  Rise
+  8    7.427  2.284  CLK     CLK    PM0/reg_q(13)/C     PM0/reg_q(26)/R  Rise
+  9    7.427  2.284  CLK     CLK    PM0/reg_q(19)/C     PM0/reg_q(26)/R  Rise
+ 10    7.427  2.284  CLK     CLK    PM0/reg_q(16)/C     PM0/reg_q(26)/R  Rise
+
+                  CTE Path Report
+
+
+Critical path #1, (path slack = 7.406):
+
+SOURCE CLOCK: name: CLK period: 10.000000
+     Times are relative to the 1st rising edge
+  DEST CLOCK: name: CLK period: 10.000000
+     Times are relative to the 2nd rising edge
+
+NAME                    GATE      DELAY    ARRIVAL DIR  FANOUT
+PM0/reg_q(18)/C      FDRE                  0.000   up
+PM0/reg_q(18)/Q      FDRE        0.377     0.377   up
+PM0/Q_TB(18)         (net)       0.334                   5
+PM0/ix54958z1345/I1  LUT3                  0.711   up
+PM0/ix54958z1345/O   LUT3        0.097     0.808   dn
+PM0/nx54958z11       (net)       0.295                   1
+PM0/ix54958z22059/I2 LUT6                  1.103   dn
+PM0/ix54958z22059/O  LUT6        0.097     1.200   dn
+PM0/nx54958z10       (net)       0.297                   2
+PM0/ix54958z1057/I3  LUT4                  1.497   dn
+PM0/ix54958z1057/O   LUT4        0.097     1.594   up
+PM0/nx54958z1        (net)       0.711                  27
+PM0/reg_q(26)/R      FDRE                  2.305   up
+
+		Initial edge separation:     10.000
+		Source clock delay:      -    1.849
+		Dest clock delay:        +    1.849
+		                        -----------
+		Edge separation:             10.000
+		Setup constraint:        -    0.289
+		                        -----------
+		Data required time:           9.711
+		Data arrival time:       -    2.305   ( 28.98% cell delay, 71.02% net delay )
+		                        -----------
+		Slack:                        7.406
+
+
+
+================================================================================================
+                   Input Delay Report
+
+	Input                  Clock Name                            Slack (ns)
+	-----                  ----------                            ----------
+	TEST_MODE              VirtualClock                          ------
+	LOAD                   VirtualClock                          ------
+	ADDRS(1)               VirtualClock                          ------
+	ADDRS(0)               VirtualClock                          ------
+	RST                    VirtualClock                          ------
+	DATA_IN(4)             VirtualClock                          ------
+	DATA_IN(3)             VirtualClock                          ------
+	DATA_IN(2)             VirtualClock                          ------
+	DATA_IN(1)             VirtualClock                          ------
+	DATA_IN(0)             VirtualClock                          ------
+	DATA_IN(5)             VirtualClock                          ------
+
+
+================================================================================================
+                   Output Delay Report
+
+	Output                 Clock Name                            Slack (ns)
+	------                 ----------                            ----------
+	B_SEG_OUT(3)           VirtualClock                          3.423 
+	B_SEG_OUT(1)           VirtualClock                          3.423 
+	B_SEG_OUT(0)           VirtualClock                          3.423 
+	B_SEG_OUT(2)           VirtualClock                          3.484 
+	B_SEG_OUT(6)           VirtualClock                          3.581 
+	B_SEG_OUT(5)           VirtualClock                          3.581 
+	B_SEG_OUT(4)           VirtualClock                          3.581 
+	SSD_SEG_OUT(3)         VirtualClock                          3.684 
+	SSD_SEG_OUT(2)         VirtualClock                          3.684 
+	SSD_SEG_OUT(1)         VirtualClock                          3.684 
+	SSD_SEG_OUT(0)         VirtualClock                          3.684 
+	ANODE_OUT(3)           VirtualClock                          4.214 
+	ANODE_OUT(2)           VirtualClock                          4.214 
+	ANODE_OUT(1)           VirtualClock                          4.214 
+	ANODE_OUT(0)           VirtualClock                          4.214 
+	SSD_SEG_OUT(6)         VirtualClock                          4.214 
+	SSD_SEG_OUT(5)         VirtualClock                          4.214 
+	SSD_SEG_OUT(4)         VirtualClock                          4.214 
+	CATHODE_OUT            VirtualClock                          4.606 

@@ -1,0 +1,358 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/VHDL/files/lab5
+T_opt
+!s110 1622711744
+V82o^P;=nZU4eH`Re5QHZF1
+04 19 11 work tb_very_real_clock2 tb_very_arc 1
+=1-005056a6337f-60b89dc0-1a3-1638
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+Ebcd_for_7segment
+Z1 w1622610901
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8Z:/VHDL/files/lab5/bcd_for_7segment.vhd
+Z5 FZ:/VHDL/files/lab5/bcd_for_7segment.vhd
+l0
+L4
+VXhimc_:0XUhj[T2i9mQ2D0
+!s100 c8<UIG3D<;daNJe29?fL;1
+Z6 OL;C;10.6d;65
+32
+Z7 !s110 1622710074
+!i10b 1
+Z8 !s108 1622710074.000000
+Z9 !s90 -reportprogress|300|-work|work|Z:/VHDL/files/lab5/bcd_for_7segment.vhd|
+Z10 !s107 Z:/VHDL/files/lab5/bcd_for_7segment.vhd|
+!i113 0
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Abc_arc
+R2
+R3
+DEx4 work 16 bcd_for_7segment 0 22 Xhimc_:0XUhj[T2i9mQ2D0
+32
+R7
+l13
+L11
+VRSciGzV3c94V=PW^YAl210
+!s100 f4j`OdiJ34d9^m`eV@O;K3
+R6
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Ebcd_for_7segment_ssd
+R1
+R2
+R3
+R0
+Z13 8Z:/VHDL/files/lab5/bcd_for_7segment_SSD.vhd
+Z14 FZ:/VHDL/files/lab5/bcd_for_7segment_SSD.vhd
+l0
+L4
+V4bhC;<bk@W:3cd6^c^YZc1
+!s100 1:g3`Z?GIhDCKl1jl[18V2
+R6
+32
+Z15 !s110 1622710086
+!i10b 1
+Z16 !s108 1622710086.000000
+Z17 !s90 -reportprogress|300|-work|work|Z:/VHDL/files/lab5/bcd_for_7segment_SSD.vhd|
+Z18 !s107 Z:/VHDL/files/lab5/bcd_for_7segment_SSD.vhd|
+!i113 0
+R11
+R12
+Abc_arc
+R2
+R3
+DEx4 work 20 bcd_for_7segment_ssd 0 22 4bhC;<bk@W:3cd6^c^YZc1
+32
+R15
+l13
+L11
+VcBeQdRiWfb3k>oMaVZlDo3
+!s100 G=0U<M[X0IPkcIIb]k8CM2
+R6
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R11
+R12
+Ebin_to_bcd
+Z19 w1622610902
+Z20 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z21 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R0
+Z22 8Z:/VHDL/files/lab5/bin_to_bcd47.vhd
+Z23 FZ:/VHDL/files/lab5/bin_to_bcd47.vhd
+l0
+L5
+VOYi>`Pad3MR^nCF[hTebA3
+!s100 cQYP_cmbC7TQ:hWIG_fzi3
+R6
+32
+Z24 !s110 1622710092
+!i10b 1
+Z25 !s108 1622710091.000000
+Z26 !s90 -reportprogress|300|-work|work|Z:/VHDL/files/lab5/bin_to_bcd47.vhd|
+Z27 !s107 Z:/VHDL/files/lab5/bin_to_bcd47.vhd|
+!i113 0
+R11
+R12
+Abin_to_bcd_arc
+R20
+R21
+R2
+R3
+DEx4 work 10 bin_to_bcd 0 22 OYi>`Pad3MR^nCF[hTebA3
+32
+R24
+l14
+L13
+VCD?2AX]_LZ?@j9d27;h`10
+!s100 f2aLVKlJ9kUBXO^DN45za0
+R6
+!i10b 1
+R25
+R26
+R27
+!i113 0
+R11
+R12
+Ereal_clock
+R19
+R20
+R21
+R2
+R3
+R0
+Z28 8Z:/VHDL/files/lab5/real_clock.vhd
+Z29 FZ:/VHDL/files/lab5/real_clock.vhd
+l0
+L5
+VW0U^R^1kzP>j4iILo1<_]3
+!s100 liBG:Z;eA?jZXHWel4C8b1
+R6
+32
+Z30 !s110 1622710096
+!i10b 1
+Z31 !s108 1622710096.000000
+Z32 !s90 -reportprogress|300|-work|work|Z:/VHDL/files/lab5/real_clock.vhd|
+Z33 !s107 Z:/VHDL/files/lab5/real_clock.vhd|
+!i113 0
+R11
+R12
+Areal_clock_arc
+R20
+R21
+R2
+R3
+DEx4 work 10 real_clock 0 22 W0U^R^1kzP>j4iILo1<_]3
+32
+R30
+l30
+L22
+VB7R13oB2Qg=X;nRCPfI[R0
+!s100 I18GI>Q5iDc2BM>flk@M]3
+R6
+!i10b 1
+R31
+R32
+R33
+!i113 0
+R11
+R12
+Etb_very_real_clock
+R19
+R20
+R21
+R2
+R3
+R0
+Z34 8Z:/VHDL/files/lab5/tb_very_real_clock1.vhd
+Z35 FZ:/VHDL/files/lab5/tb_very_real_clock1.vhd
+l0
+L5
+V1[XfQ`R3FWbOd<FQ5a@FD2
+!s100 j;1cF`YVlO:@X8OkaZGYj1
+R6
+32
+!s110 1622632239
+!i10b 1
+!s108 1622632239.000000
+Z36 !s90 -reportprogress|300|-work|work|Z:/VHDL/files/lab5/tb_very_real_clock1.vhd|
+Z37 !s107 Z:/VHDL/files/lab5/tb_very_real_clock1.vhd|
+!i113 0
+R11
+R12
+Atb_very_arc
+w1622634171
+R20
+R21
+R2
+R3
+DEx4 work 18 tb_very_real_clock 0 22 1[XfQ`R3FWbOd<FQ5a@FD2
+Z38 8Z:/VHDL/files/lab5/tb_very_real_clock2.vhd
+Z39 FZ:/VHDL/files/lab5/tb_very_real_clock2.vhd
+l37
+L8
+VlQ1L:mL<VEbz3EDW5FA;40
+!s100 cadO0BH=;6jc6KY=03eDe2
+R6
+32
+!s110 1622634318
+!i10b 1
+!s108 1622634318.000000
+Z40 !s90 -reportprogress|300|-work|work|Z:/VHDL/files/lab5/tb_very_real_clock2.vhd|
+Z41 !s107 Z:/VHDL/files/lab5/tb_very_real_clock2.vhd|
+!i113 0
+R11
+R12
+Etb_very_real_clock1
+Z42 w1622636111
+R20
+R21
+R2
+R3
+R0
+R34
+R35
+l0
+L5
+Vf50U@jPDE5mE>YLmAA?]41
+!s100 :PCA8XJ1?Ra4n8Q?Gz;?o1
+R6
+32
+Z43 !s110 1622710111
+!i10b 1
+Z44 !s108 1622710111.000000
+R36
+R37
+!i113 0
+R11
+R12
+Atb_very_arc
+R20
+R21
+R2
+R3
+DEx4 work 19 tb_very_real_clock1 0 22 f50U@jPDE5mE>YLmAA?]41
+32
+R43
+l37
+L8
+VNBJoZlHIjU4Zi<`^P_Mgk3
+!s100 zjaILc]]]Cb>lEHgaAo?72
+R6
+!i10b 1
+R44
+R36
+R37
+!i113 0
+R11
+R12
+Etb_very_real_clock2
+Z45 w1622636108
+R20
+R21
+R2
+R3
+R0
+R38
+R39
+l0
+L5
+V57:SLcLZF<RdGNc6`ie2d0
+!s100 U^0i3hAo3546zmFC6Q:?91
+R6
+32
+Z46 !s110 1622710116
+!i10b 1
+Z47 !s108 1622710115.000000
+R40
+R41
+!i113 0
+R11
+R12
+Atb_very_arc
+R20
+R21
+R2
+R3
+DEx4 work 19 tb_very_real_clock2 0 22 57:SLcLZF<RdGNc6`ie2d0
+l37
+L8
+VSLVR_T@?iDbI_ON]nocJ41
+!s100 U@Sc5eG?`GmT3RVXiPRHd0
+R6
+32
+R46
+!i10b 1
+R47
+R40
+R41
+!i113 0
+R11
+R12
+Every_real_clock
+Z48 w1622635119
+R20
+R21
+R2
+R3
+R0
+Z49 8Z:/VHDL/files/lab5/very_real_clock.vhd
+Z50 FZ:/VHDL/files/lab5/very_real_clock.vhd
+l0
+L5
+VcNEU<c?DJiVcd^IWS4EJC1
+!s100 =TSegN79mL3ac?]Td1Z3f1
+R6
+32
+Z51 !s110 1622710102
+!i10b 1
+Z52 !s108 1622710101.000000
+Z53 !s90 -reportprogress|300|-work|work|Z:/VHDL/files/lab5/very_real_clock.vhd|
+Z54 !s107 Z:/VHDL/files/lab5/very_real_clock.vhd|
+!i113 0
+R11
+R12
+Avery_arc
+R20
+R21
+R2
+R3
+DEx4 work 15 very_real_clock 0 22 cNEU<c?DJiVcd^IWS4EJC1
+32
+R51
+l95
+L21
+VaG`WMGUzjD9]bJXkkVO593
+!s100 >J]<idGJ7STUc>V:gZD:e0
+R6
+!i10b 1
+R52
+R53
+R54
+!i113 0
+R11
+R12

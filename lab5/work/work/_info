@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/VHDL/files/lab5/work
+Every_real_clock
+w1622630459
+DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8Z:/VHDL/files/lab5/very_real_clock.vhd
+FZ:/VHDL/files/lab5/very_real_clock.vhd
+l0
+L5
+V<oiGkVKhK;Km^z8<iU5cF2
+!s100 V8INge9TL6ncP<^3g^oM;3
+OL;C;10.6d;65
+32
+!s110 1622630467
+!i10b 1
+!s108 1622630467.000000
+!s90 -reportprogress|300|-work|work|Z:/VHDL/files/lab5/very_real_clock.vhd|
+!s107 Z:/VHDL/files/lab5/very_real_clock.vhd|
+!i113 0
+o-work work
+tExplicit 1 CvgOpt 0
